@@ -18,7 +18,8 @@ function ShowInputOtherDocuments(el) {
 }
 
 // Função para mostrar o input de 'acompanhamento médico'
-function medicalTreatment(el) {
+function medicalTreatment(el) { //teste
+ 
   let inputMedical = document.getElementById('inputMedical');
 
   if (el.value == "Sim" ? inputMedical.style.display = "block" : inputMedical.style.display = "none");
